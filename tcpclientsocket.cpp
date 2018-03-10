@@ -148,12 +148,6 @@ void TcpClientSocket::dataReceived()
             QByteArray datasend =strurl.toLocal8Bit();
             write(datasend);
         }
-        /*else {
-            QString temp = "success\n";
-            qDebug()<<temp;
-            QByteArray datasend =temp.toLocal8Bit();
-            write(datasend);
-        }*/
         emit updateClients(str,this->socketDescriptor());
     }
 }
