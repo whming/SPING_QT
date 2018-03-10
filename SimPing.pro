@@ -23,7 +23,10 @@ SOURCES += main.cpp\
     base_data.cpp \
     http_manager.cpp \
     sql_api.cpp \
-    cJSON.c
+    cJSON.c \
+    init_dialog.cpp \
+    ipjs.cpp \
+    test_model.cpp
 
 HEADERS  += \
     main_widget.h \
@@ -34,7 +37,10 @@ HEADERS  += \
     cJSON.h \
     http_manager.h \
     Identification.h \
-    sql_api.h
+    sql_api.h \
+    init_dialog.h \
+    ipjs.h \
+    test_model.h
 
 FORMS    += \
     main_widget.ui
@@ -44,3 +50,6 @@ RESOURCES += \
 
 OTHER_FILES += \
     appico.rc
+
+DISTFILES += \
+    APN_data.db
