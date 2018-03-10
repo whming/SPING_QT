@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/1.png</file>
+        <file>images/2.png</file>
+        <file>images/10.png</file>
+        <file>images/20.png</file>
+        <file>images/arrow.png</file>
+        <file>images/back.png</file>
+        <file>images/bg.jpg</file>
+        <file>images/c1.png</file>
+        <file>images/c2.png</file>
+        <file>images/c3.png</file>
+        <file>images/c4.png</file>
+        <file>images/c10.png</file>
+        <file>images/c20.png</file>
+        <file>images/c30.png</file>
+        <file>images/c40.png</file>
+        <file>images/company.png</file>
+        <file>images/error.png</file>
+        <file>images/head_tab_nor.png</file>
+        <file>images/head_tab_pre.png</file>
+        <file>images/home_bg.jpg</file>
+        <file>images/home_menu_t1.jpg</file>
+        <file>images/home_menu_t2.jpg</file>
+        <file>images/home_menu_t3.jpg</file>
+        <file>images/logo.png</file>
+        <file>images/top_logo.png</file>
+        <file>images/logo.ico</file>
+        <file>images/title_logo.png</file>
+    </qresource>
+</RCC>
