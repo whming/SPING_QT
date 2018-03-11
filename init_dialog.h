@@ -7,7 +7,6 @@
 #include "sql_api.h"
 #include "cJSON.h"
 #include "http_manager.h"
-//#include "mainwindow.h"
 #include "main_widget.h"
 
 //获取设备信息

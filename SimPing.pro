@@ -25,8 +25,7 @@ SOURCES += main.cpp\
     sql_api.cpp \
     cJSON.c \
     init_dialog.cpp \
-    ipjs.cpp \
-    test_model.cpp
+    ipjs.cpp
 
 HEADERS  += \
     main_widget.h \
@@ -39,11 +38,11 @@ HEADERS  += \
     Identification.h \
     sql_api.h \
     init_dialog.h \
-    ipjs.h \
-    test_model.h
+    ipjs.h
 
 FORMS    += \
-    main_widget.ui
+    main_widget.ui \
+    init_dialog.ui
 
 RESOURCES += \
     src.qrc

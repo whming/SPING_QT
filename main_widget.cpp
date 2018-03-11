@@ -62,8 +62,8 @@ Main_Widget::Main_Widget(QWidget *parent) :
     qDebug()<<"webUrl="<<webUrl;
     ui->bottomLayout->addWidget(webWidget);
     this->setLayout(ui->mainLayout);
-//    this->setWindowFlags(Qt::FramelessWindowHint);//无边框
-//    this->showFullScreen();
+    this->setWindowFlags(Qt::FramelessWindowHint);//无边框
+    this->showFullScreen();
 
     on_pingBtn_3_clicked();
     on_webBtn_3_clicked();
